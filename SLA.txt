@@ -71,4 +71,3 @@ SLA is external promise
 
 If you understand this, you understand how real production systems are managed.
 
-This is not theory. This is how companies protect user trust every single day
