@@ -1,0 +1,74 @@
+What is SLI, SLO, SLA?
+
+Imagine this story.
+
+There is an online food delivery app called FastBite.
+Lakhs of users use it every day to order food.
+
+One day, the business owner asks the tech team one question:
+
+“How reliable is our app for users?”
+
+Now the team explains using SLI, SLO, and SLA.
+
+First comes SLI.
+
+SLI means Service Level Indicator.
+This is what we actually measure.
+
+In FastBite app, the DevOps team checks: How many requests are successful
+How fast the app responds
+How many times the app goes down
+
+For example: Out of 1 lakh requests, 99,900 requests worked fine.
+
+That measurement is SLI.
+SLI is just data. It tells what is really happening.
+
+Next comes SLO.
+
+SLO means Service Level Objective.
+This is the internal target set by the team.
+
+The DevOps team says: Our goal is that 99.9 percent of requests should be successful every month.
+
+This goal is not for customers. This is for engineers, monitoring, alerts, and improvements.
+
+If the SLI goes below this target, the team knows something is wrong. They fix issues before customers complain.
+
+That target is SLO.
+
+Now comes SLA.
+
+SLA means Service Level Agreement.
+This is a promise made to customers.
+
+FastBite tells restaurants and partners: We guarantee 99.5 percent uptime every month. If we fail, we will give compensation.
+
+This is written in a legal agreement. Business teams, not engineers, usually define SLA.
+
+So in simple words:
+
+SLI answers: What is actually happening in production?
+
+SLO answers: What level of reliability do we want to maintain?
+
+SLA answers: What have we officially promised to customers?
+
+One important thing.
+
+SLO is always stricter than SLA. Why?
+
+Because if engineers only aim for SLA, any small issue will break the promise.
+
+So DevOps teams aim higher internally, so customers stay happy externally.
+
+Final takeaway for students:
+
+SLI is measurement
+SLO is internal goal
+SLA is external promise
+
+If you understand this, you understand how real production systems are managed.
+
+This is not theory. This is how companies protect user trust every single day
