@@ -69,5 +69,5 @@ SLI is measurement
 SLO is internal goal
 SLA is external promise
 
-If you understand this, you understand how real production systems are managed.
+
 
